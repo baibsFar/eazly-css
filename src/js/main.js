@@ -2,7 +2,6 @@ const pages = document.querySelectorAll('div[id*="page-"]')
 let page = 0
 
 window.addEventListener('keydown', (e) => {
-    console.log(e)
     switch (e.key) {
         case 'ArrowDown':
             if (page < pages.length - 1) page++

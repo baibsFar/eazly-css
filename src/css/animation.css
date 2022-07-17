@@ -55,6 +55,16 @@
 
 /* Styles */
 
+body {
+    background-color: rgba(20, 20, 20, 0.4);
+    background-image: url('../../asset/logo/background-2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    background-blend-mode: multiply;
+}
+
 #page-1 {
     background-color: rgba(20, 20, 20, 0.4);
     background-image: url('../../asset/logo/background-3.jpeg');
@@ -65,9 +75,12 @@
     background-blend-mode: multiply;
 }
 
+#page-2
+
 #guide {
-    opacity: 0.2;
+    opacity: 0.5;
     transition: all 350ms;
+    cursor: not-allowed;
 }
 
 #guide:hover { opacity: 1; }
