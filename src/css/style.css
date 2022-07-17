@@ -15,11 +15,14 @@
 
 *::before, *::after { box-sizing: border-box; }
 
+*::-webkit-scrollbar { display: none; }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Made Okine';
+    scroll-behavior: smooth;
 }
 
 /* Positions */
