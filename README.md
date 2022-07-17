@@ -1,13 +1,14 @@
-# eazly-css
-A css library for easily stylize page
+<h3 align="center">
+  <img width="1000" src="/asset/logo/light-logo.png" >
+  A CSS mini-library for easily stylize page
+</h3>
 
-## Demo
-### Buttons
+## Buttons
 ![](/asset/img/buttons.png)
 ---------------------------
 A code illustration with margin-left
-#### Light Buttons
+### Light Buttons
 ![](/asset/img/light-button-code.png)
 ---------------------------
-#### Dark Buttons
+### Dark Buttons
 ![](/asset/img/dark-button-code.png)
