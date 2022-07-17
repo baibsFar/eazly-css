@@ -5,6 +5,7 @@
     --blue: rgb(75, 126, 255);
     --yellow: rgb(255, 225, 75);
     --purple: rgb(126, 75, 255);
+    --white: #fff;
 }
 
 @font-face {
@@ -299,6 +300,8 @@
 .pl-500px { padding-left: 500px; }
 
 /* Backgrounds */
+/* DARK */
+.bg-dark-100 { background-color: rgb(20, 20, 20); }
 /* RED */
 .bg-red-100 { background-color: rgb(255, 75, 75); }
 .bg-red-200 { background-color: rgb(255, 105, 105); }
@@ -410,3 +413,55 @@
 .outline-blue { outline: solid .5px var(--blue); }
 .outline-yellow { outline: solid .5px var(--yellow); }
 .outline-purple { outline: solid .5px var(--purple); }
+
+/* Buttons */
+.transition-300 { transition: all 300ms; }
+.transition-350 { transition: all 350ms; }
+.transition-400 { transition: all 400ms; }
+.transition-450 { transition: all 450ms; }
+.transition-500 { transition: all 500ms; }
+.transition-550 { transition: all 550ms; }
+.transition-600 { transition: all 600ms; }
+.transition-650 { transition: all 650ms; }
+.transition-700 { transition: all 700ms; }
+.transition-750 { transition: all 750ms; }
+.transition-800 { transition: all 800ms; }
+.transition-850 { transition: all 850ms; }
+.transition-900 { transition: all 900ms; }
+.transition-950 { transition: all 950ms; }
+.transition-1 { transition: all 1s; }
+.transition-15 { transition: all 1.5s; }
+.transition-2 { transition: all 2s; }
+.transition-25 { transition: all 2.5s; }
+.transition-3 { transition: all 3s; }
+button {
+    position: relative;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    color: var(--dark);
+    outline: none;
+    box-shadow: -1px 1px 5px #e7e7e7;
+    box-shadow: -1px 1px 10px #c7c7c7;
+    cursor: pointer;
+    transition: all .35s;
+}
+
+button:active { transform: scale(0.98); }
+button:hover { box-shadow: -1px 1px 5px #e7e7e7; }
+
+/* Lights */
+button.button-dark { background-color: var(--dark); color: var(--white); }
+button.button-light { background-color: var(--white); color: var(--dark); }
+button.button-red { background-color: var(--white); color: var(--red); }
+button.button-green { background-color: var(--white); color: var(--green); }
+button.button-blue { background-color: var(--white); color: var(--blue); }
+button.button-yellow { background-color: var(--white); color: var(--yellow); }
+button.button-purple { background-color: var(--white); color: var(--purple); }
+/* Darks */
+button.button-dark-red { background-color: var(--dark); color: var(--red); }
+button.button-dark-green { background-color: var(--dark); color: var(--green); }
+button.button-dark-blue { background-color: var(--dark); color: var(--blue); }
+button.button-dark-yellow { background-color: var(--dark); color: var(--yellow); }
+button.button-dark-purple { background-color: var(--dark); color: var(--purple); }
