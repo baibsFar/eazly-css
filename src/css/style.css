@@ -442,14 +442,16 @@ button {
     font-size: 1.5vw;
     color: var(--dark);
     outline: none;
-    box-shadow: -1px 1px 5px #e7e7e7;
-    box-shadow: -1px 1px 10px #c7c7c7;
+    box-shadow: -1px 1px 50px rgb(220, 220, 220);
     cursor: pointer;
     transition: all .35s;
 }
 
+button[class*="button-dark"] { box-shadow: -1px 1px 50px rgb(30, 30, 30); }
+
 button:active { transform: scale(0.98); }
-button:hover { box-shadow: -1px 1px 5px #e7e7e7; }
+button:hover { box-shadow: -1px 1px 10px rgb(220, 220, 220); }
+button[class*="button-dark"]:hover { box-shadow: -1px 1px 10px rgb(30, 30, 30); }
 
 /* Lights */
 button.button-light { background-color: var(--white); color: var(--dark); }
