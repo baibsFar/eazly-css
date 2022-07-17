@@ -452,7 +452,6 @@ button:active { transform: scale(0.98); }
 button:hover { box-shadow: -1px 1px 5px #e7e7e7; }
 
 /* Lights */
-button.button-dark { background-color: var(--dark); color: var(--white); }
 button.button-light { background-color: var(--white); color: var(--dark); }
 button.button-red { background-color: var(--white); color: var(--red); }
 button.button-green { background-color: var(--white); color: var(--green); }
@@ -460,6 +459,7 @@ button.button-blue { background-color: var(--white); color: var(--blue); }
 button.button-yellow { background-color: var(--white); color: var(--yellow); }
 button.button-purple { background-color: var(--white); color: var(--purple); }
 /* Darks */
+button.button-dark { background-color: var(--dark); color: var(--white); }
 button.button-dark-red { background-color: var(--dark); color: var(--red); }
 button.button-dark-green { background-color: var(--dark); color: var(--green); }
 button.button-dark-blue { background-color: var(--dark); color: var(--blue); }
