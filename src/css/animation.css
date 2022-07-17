@@ -1,0 +1,73 @@
+@keyframes fade-in-left {
+    0% { transform: translateX(-100%); opacity: 0%; }
+    100% { transform: translateX(0); opacity: 100%; }
+}
+
+@keyframes fade-in-right {
+    0% { transform: translateX(100%); opacity: 0%; }
+    100% { transform: translateX(0); opacity: 100%; }
+}
+
+@keyframes fade-in-top {
+    0% { transform: translateY(-100%); opacity: 0%; }
+    100% { transform: translateX(0); opacity: 100%; }
+}
+
+@keyframes fade-in-bottom {
+    0% { transform: translateY(100%); opacity: 0%; }
+    100% { transform: translateX(0); opacity: 100%; }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+.fade-in-left {
+    animation-name: fade-in-left;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.fade-in-right {
+    animation-name: fade-in-right;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.fade-in-top {
+    animation-name: fade-in-top;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.fade-in-bottom {
+    animation-name: fade-in-bottom;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+/* Styles */
+
+#page-1 {
+    background-color: rgba(20, 20, 20, 0.4);
+    background-image: url('../../asset/logo/background-3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    background-blend-mode: multiply;
+}
+
+#guide {
+    opacity: 0.2;
+    transition: all 350ms;
+}
+
+#guide:hover { opacity: 1; }
